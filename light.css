@@ -1,0 +1,22 @@
+:root {
+  --color-bg: hsl(108, 100%, 95%);
+  --color-text: hsl(176, 9%, 35%);
+  --color-accent: hsl(53, 100%, 44%);
+  --color-heading: hsl(175, 9%, 27%);
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-heading);
+}
+a {
+  color: var(--color-accent);
+}
+a:hover {
+  color: hsl(53, 100%, 25%);
+}
