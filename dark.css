@@ -3,6 +3,10 @@
   --color-text: hsl(175, 30%, 93%);
   --color-accent: hsl(53, 80%, 83%);
   --color-heading: hsl(180, 33%, 98%);
+  /* Dark mode fonts */
+  --font-heading: "New Rocker", Georgia, serif;
+  --font-body: "Playfair Display", Georgia, serif;
+  --font-caption: "Playfair Display", Georgia, serif;
 }
 body {
   background-color: var(--color-bg);
