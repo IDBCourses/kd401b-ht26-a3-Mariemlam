@@ -1,6 +1,6 @@
 # Lighthouse report
 
-Generated 2026-11-26 02:08 UTC from commit `6ed10d2`.
+Generated 2026-11-26 02:23 UTC from commit `9d7b284`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
@@ -15,8 +15,9 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 - **First Contentful Paint** (2.3 s)
 - **Browser errors were logged to the console**
 - **Image elements do not have explicit `width` and `height`**
-- **Eliminate render-blocking resources** (Est savings of 1,370 ms)
+- **Eliminate render-blocking resources** (Est savings of 1,540 ms)
+- **Serve images in next-gen formats** (Est savings of 8 KiB)
 - **Document does not have a meta description**
-- **Improve image delivery** (Est savings of 10 KiB)
+- **Improve image delivery** (Est savings of 21 KiB)
 - **Network dependency tree**
 - **Render blocking requests**
