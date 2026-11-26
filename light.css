@@ -3,24 +3,27 @@
   --color-text: hsl(176, 9%, 35%);
   --color-accent: hsl(53, 93%, 20%);
   --color-heading: hsl(175, 15%, 16%);
-  /* Light mode fonts */
   --font-heading: "Playfair Display", Georgia, serif;
   --font-body: "Playfair Display", Georgia, serif;
   --font-caption: "Playfair Display", Georgia, serif;
 }
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
 }
+
 h1,
 h2,
 h3,
 h4 {
   color: var(--color-heading);
 }
+
 a {
   color: var(--color-accent);
 }
+
 a:hover {
-  color: hsl(53, 100%, 45%);
+  color: hsl(53, 93%, 20%);
 }
